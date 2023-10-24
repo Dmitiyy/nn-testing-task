@@ -1,38 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .App {
-  text-align: center;
+  width: 500px;
+  margin: 30px auto;
+  padding: 20px;
+  border-radius: 15px;
+  border: 1px solid black;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.err {
+  color: red;
+  margin-left: 20px;
+  margin-top: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.selection select {
+  width: 100px;
+  height: 50px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.selection button {
+  width: 200px;
+  height: 50px;
+}
+
+.list table {
+  margin-left: 20px;
+  margin-top: 20px;
+  width: 320px;
+}
+
+.exchange, .history {
+  margin-top: 70px;
+}
+
+.options {
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.selection input {
+  width: 100px;
+  height: 50px;
+  padding: 5px;
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-right: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.exchange .result {
+  width: 100px;
+  height: 50px;
+  margin-top: 20px;
+  padding: 5px;
+  margin-left: 20px;
+}
+
+.history .selection button {
+  margin-left: 20px;
+  margin-top: 20px;
 }
